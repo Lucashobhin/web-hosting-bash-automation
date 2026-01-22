@@ -1,0 +1,25 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - '**'  # Run on all branches
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Make system-info.sh executable
+        run: chmod +x system-info.sh
+      
+      - name: Execute system-info.sh script
+        run: ./system-info.sh
+      
+      - name: Print success message
+        run: echo "Week 3 CI Successful"

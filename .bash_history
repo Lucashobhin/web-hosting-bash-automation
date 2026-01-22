@@ -149,3 +149,77 @@ git commit -m "Added custom webpage and system info script"
 git branch -M main
 git remote add origin https://github.com/Lucashobhin/web-hosting-bash-automation.git
 git push -u origin main
+pwd
+ls
+rm -rf .git
+git init
+git add.
+git add .
+git add index.html system-info.sh
+git commit -m "Added custom webpage and system info script"
+git branch -M main
+git remote add origin https://github.com/Lucashobhin/web-hosting-bash-automation.git
+git push -u origin main
+[200~git branch -M main                                         
+git remote add origin https://github.com/Lucashobhin/web-hosting-bash-automation.git
+git push -u origin main~
+git branch -M main                                         
+git remote add origin https://github.com/Lucashobhin/web-hosting-bash-automation.git
+git push -u origin main
+git branch -M main
+git remote add origin https://github.com/USERNAME/web-hosting-bash-automation.git
+git push -u origin main
+git status
+git add index.html
+git commit -m "Added content to index.html"
+git push
+ls -l
+cat index.html
+nano index.html
+sudo vim index.html
+cat index.html
+sudo nano index.html
+cat index.html
+git status
+modified: index.html
+git add index.html
+git commit -m "Added content to index.html"
+git push
+su - intern
+echo "System Information:"
+uname -a
+echo "System Information:"
+uname -a
+# Create the workflows directory
+mkdir -p .github/workflows
+# Create the ci.yml file
+touch .github/workflows/ci.yml
+[200~name: CI Pipeline
+on:
+  push:
+    branches:
+      - main
+      - master
+      - '**'  # Run on all branches
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Make system-info.sh executable
+        run: chmod +x system-info.sh
+      
+      - name: Execute system-info.sh script
+        run: ./system-info.sh
+      
+      - name: Print success message
+#!/bin/bash
+echo "System Information:"
+uname -a
+.github
+.github/workflows
+.github
+.github/workflows/ci.yml
